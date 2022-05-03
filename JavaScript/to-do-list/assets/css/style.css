@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+
+
+body {
+	background-color: #e5e8e8;
+	color: #4e545c;
+	margin: 0;
+	font-family: 'Quicksand';
+}
+.list{
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+}
+.task-form{	
+	display: flex;
+	border: 1px solid black;
+	padding: 1px;
+	border-radius: 5px;
+}
+.task-form input {
+	flex-grow: 2;
+	width: 300px;
+	border: none;
+}
+.task-form button{
+	border: none;
+	background-color: lightgray;
+	color: black;
+}
+.task-form button:hover{
+	background-color: #4e545c;
+	color: white;
+}
+.checkbox:checked ~ label{
+	text-decoration: line-through;
+}

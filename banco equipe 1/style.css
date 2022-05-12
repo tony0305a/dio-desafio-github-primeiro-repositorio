@@ -1,0 +1,92 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+button {
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+}
+button:hover {
+    border-radius: 5px;
+    background-color: rgb(139, 21, 21);
+    color: white;
+    font-size: 18px;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgb(192,192,192);
+    padding: 10px;
+}
+.header span{
+    font-size: 42px;
+    border: 2px solid blue;
+    background-color: red;
+    border-radius: 15px;
+    padding: 10px;
+}
+.clientes{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgb(192,192,192);
+}
+.perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.saldo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+    justify-content: center;
+}
+.saldo:hover{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+    font-weight: bold;
+}
+.cliente-1{
+    font-size: 28px;
+    width: 500px;
+    height: 280px;
+}
+.cliente-2{
+    font-size: 28px;
+    width: 500px;
+    height: 350px;
+}
+.action-depositar{
+    display: none;
+}
+
+.action-depositar{
+    display: none;
+}
+
+.show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.actions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.action-depositar input{
+    margin-right: 5px;
+    border-radius: 8px;
+    border: 2px solid red;
+    height: 25px;
+    font-weight: bold;
+}
